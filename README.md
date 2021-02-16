@@ -5,8 +5,7 @@
 
 ## 简介
 
-每天十点半自动完成每日体温上报。   
-如想修改自动运行的时间，可以`.github/workflows/SduHealthReport.yml`中修改`schedule`属性
+每天 10:30 GMT+8 自动完成体温上报，如想修改定时运行的时间，可修改 `.github/workflows/SduHealthReport.yml` 中 `schedule` 属性。
 
 **如果当日有异常，请手动在小程序端/PC 端填写！！！！！！！！！！！！**
 
