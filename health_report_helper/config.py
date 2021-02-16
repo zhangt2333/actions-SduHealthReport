@@ -5,35 +5,37 @@
 # config.py 2021/2/13 22:52
 import datetime
 import time
+from datetime import datetime, timedelta
 
 # The data you need to fill
 data = {
     # fill them:
-    "username": 'fill-it',  # 学号
-    "password": 'fill-it',  # 密码
-    "ZXSJ": "fill-it",  # 手机
-    "XM": "fill-it",  # 姓名
-    "XSXB": "fill-it",  # 性别
-    "NL": "fill-it",  # 年龄
-    "FDYXMX": "fill-it",  # 辅导员姓名
-    "SZDW": "fill-it",  # 学院全称
-    "ZYMC": "fill-it",  # 专业全称
-    "JJLXRXM": "fill-it",  # 家长姓名
-    "JJLXRDH": "fill-it",  # 家长手机
-    "JJLXRYBRGX": "fill-it",  # 和家长关系
-    "sheng": "fill-it",  # 省
-    "shi": "fill-it",  # 市
-    "quxian": "fill-it",  # 区/县
-    "DQJZDZ": "fill-it",  # 具体地址
+    'username': 'fill-it',  # 学号
+    'password': 'fill-it',  # 密码
+    'ZXSJ': 'fill-it',  # 手机
+    'XM': 'fill-it',  # 姓名
+    'XSXB': 'fill-it',  # 性别, 填 '男' 或 '女'
+    'NL': 'fill-it',  # 年龄
+    'FDYXMX': 'fill-it',  # 辅导员姓名
+    'SZDW': 'fill-it',  # 学院全称, 如 计算机科学与技术学院
+    'ZYMC': 'fill-it',  # 专业全称, 如 计算机科学与技术（菁英班）
+    'JJLXRXM': 'fill-it',  # 家长姓名
+    'JJLXRDH': 'fill-it',  # 家长手机
+    'JJLXRYBRGX': 'fill-it',  # 和家长关系, 如 父子
+    'sheng': 'fill-it',  # 省, 如 山东省
+    'shi': 'fill-it',  # 市, 如 青岛市
+    'quxian': 'fill-it',  # 区/县, 如 即墨区
+    'DQJZDZ': 'fill-it',  # 具体地址, 如 山东省青岛市即墨区鳌山卫街道滨海路72号
+    'EXTEST': '否No',  # 是否进行过核酸和血清抗体检测, 填 '否No' 或 '是Yes'
 
     # choose once, then annotate others:
-    "DQSFJJIA": "在家At home",
-    # "DQSFJJIA": "在外Away from home",
+    'DQSFJJIA': '在家At home',
+    # 'DQSFJJIA': '在外Away from home',
 
     # choose once, then annotate others:
-    "LXZT": "非学校所在城市Not in the city of the university",
-    # "LXZT": "学校所在城市In the city of the university",
-    # "LXZT": "境外Abroad",
+    'LXZT': '非学校所在城市Not in the city of the university',
+    # 'LXZT': '学校所在城市In the city of the university',
+    # 'LXZT': '境外Abroad',
 }
 
 

@@ -1,9 +1,9 @@
 name: SduHealthReport
 
 on:
-  push:
-    branches:
-      - master
+  # push:
+  #   branches:
+  #     - master
   schedule:
     - cron: '30 2 * * *' # GMT+8 10:30
 
