@@ -1,6 +1,9 @@
 name: SduHealthReport
 
 on:
+  push:
+    branches:
+      - master
    schedule:
        - cron: '30 2 * * *' # GMT+8 10:30
 
@@ -25,4 +28,4 @@ jobs:
       
       - name: Run Spider
         run: |
-          python healthy_report_helper/main.py ${{ secrets.DATA }}
+          python health_report_helper/main.py "${{ secrets.DATA }}"
