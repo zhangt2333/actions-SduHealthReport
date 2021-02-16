@@ -25,11 +25,11 @@
     'password': 'fill-it',  # 密码
     'ZXSJ': 'fill-it',  # 手机
     'XM': 'fill-it',  # 姓名
-    'XSXB': 'fill-it',  # 性别,填 男 或 女
-    'NL': 'fill-it',  # 年龄, 整数
+    'XSXB': 'fill-it',  # 性别
+    'NL': 'fill-it',  # 年龄
     'FDYXMX': 'fill-it',  # 辅导员姓名
-    'SZDW': 'fill-it',  # 学院全称, 如 计算机科学与技术学院
-    'ZYMC': 'fill-it',  # 专业全称, 如 计算机科学与技术
+    'SZDW': 'fill-it',  # 学院全称
+    'ZYMC': 'fill-it',  # 专业全称
     'JJLXRXM': 'fill-it',  # 家长姓名
     'JJLXRDH': 'fill-it',  # 家长手机
     'JJLXRYBRGX': 'fill-it',  # 和家长关系
@@ -37,6 +37,7 @@
     'shi': 'fill-it',  # 市
     'quxian': 'fill-it',  # 区/县
     'DQJZDZ': 'fill-it',  # 具体地址
+    'EXTEST': '否No',  # 是否进行过核酸和血清抗体检测, 填 '否No' 或 '是Yes'
 
     # choose once, then annotate others:
     'DQSFJJIA': '在家At home',
