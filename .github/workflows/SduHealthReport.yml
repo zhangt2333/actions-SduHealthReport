@@ -1,4 +1,4 @@
-name: SduHealthyReport
+name: SduHealthReport
 
 on:
    schedule:
