@@ -7,14 +7,14 @@
 
 自动完成每日体温上报。
 
-**如果当日有异常，请手动在小程序端/PC 端填写！！！**
+**如果当日有异常，请手动在小程序端/PC 端填写！！！！！！！！！！！！**
 
-## Github Actions 部署方法
+## Github Actions 启用步骤
 
 
-### 1. fork本项目
+### 1. Fork 本项目
 
-项目地址：[zhangt2333/actions-SduHealthReport](https://github.com/zhangt2333/actions-SduHealthReport)
+Fork 本项目: [zhangt2333/actions-SduHealthReport](https://github.com/zhangt2333/actions-SduHealthReport) (Star 自然是更好)
 
 ### 2. 准备需要的参数
 
@@ -50,11 +50,11 @@
 }
 ```
 
-### 3. 打开 Github Actions
+### 3. 启用 Github Actions
 
 ![image-20210216140844300](README/image-20210216140844300.png)
 
-## 4. 将参数填到 Secrets
+### 4. 将参数填到 Secrets
 
 将填好的参数加入到 Secrets 中，name 为 `DATA`，value 为步骤 2 中的多行字符串
 
