@@ -15,7 +15,7 @@ def report(JSESSIONID):
         response = requests.post(
             url='https://scenter.sdu.edu.cn/tp_fp/formParser?status=update&formid=d11d0d9b-d73a-4dad-b3c5-7d44b4ed&workflowAction=startProcess&seqId=&workitemid=&process=674950f5-924b-463d-9eb6-21d5d1b6d9ef',
             headers=config.HEADERS,
-            data=config.DATA.encode('utf-8')
+            data=config.get_DATA().encode('utf-8')
         )
         if response.status_code != 200:
             return False

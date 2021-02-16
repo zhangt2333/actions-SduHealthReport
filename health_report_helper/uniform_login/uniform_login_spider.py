@@ -6,7 +6,7 @@
 
 import requests
 import re
-from uniform_login import uniform_login_des
+from . import uniform_login_des
 
 
 # example: login(username='your-student-id', password='your-password', to_url='https://scenter.sdu.edu.cn/tp_fp/view')
