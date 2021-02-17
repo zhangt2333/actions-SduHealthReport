@@ -59,3 +59,18 @@ Fork 本项目: [zhangt2333/actions-SduHealthReport](https://github.com/zhangt23
 将填好的参数加入到 Secrets 中，name 为 `DATA`，value 为步骤 2 中的多行字符串
 
 ![image-20210216140557947](README/image-20210216140557947.png)
+
+## 为多人打卡
+依照“Github Actions 启用步骤” 第2、4步，添加新的 Secret，假设命名为 `DATA2`  
+复制一遍`.github/workflows/SduHealthReport.yml`中最后一行`python health_report_helper/main.py "${{ secrets.DATA }}"`并将其中的`secrets.DATA`中的`DATA`改为新 secrets 的键值。  
+
+修改后的文件应如下所示，假设新键为`DATA2`  
+```
+  // .....
+  - name: Run Spider
+        run: |
+          python health_report_helper/main.py "${{ secrets.DATA }}"
+          python health_report_helper/main.py "${{ secrets.DATA2 }}"
+```
+
+
