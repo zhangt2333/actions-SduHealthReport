@@ -60,10 +60,11 @@ Fork 本项目: [zhangt2333/actions-SduHealthReport](https://github.com/zhangt23
 
 ## 为多人打卡
 
-依照“Github Actions 启用步骤” 第 2、4 步，添加新的 Secret，假设命名为 `DATA2`  
-复制一遍`.github/workflows/SduHealthReport.yml`中最后一行`python health_report_helper/main.py "${{ secrets.DATA }}"`并将其中的`secrets.DATA`中的`DATA`改为新 secrets 的键值。
+1. 依照 `Github Actions 启用步骤` 第 2、4 步，添加新的 Secret，假设命名为 `DATA2`  
 
-修改后的文件应如下所示，假设新键为`DATA2`
+2. 复制一遍 `.github/workflows/SduHealthReport.yml` 中最后一行 `python health_report_helper/main.py "${{ secrets.DATA }}"` 并将其中的 `secrets.DATA` 中的 `DATA` 改为新 secrets 的键值。
+
+3. 修改后的文件应如下所示（假设新键为`DATA2`）
 
 ```
   // .....
