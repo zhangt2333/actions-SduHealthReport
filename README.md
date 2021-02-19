@@ -37,14 +37,16 @@ Fork 本项目: [zhangt2333/actions-SduHealthReport](https://github.com/zhangt23
     'DQJZDZ': 'fill-it',  # 具体地址, 如 山东省青岛市即墨区鳌山卫街道滨海路72号
     'EXTEST': '否No',  # 是否进行过核酸和血清抗体检测, 填 '否No' 或 '是Yes'
 
-    # choose once, then annotate others:
+    # choose one, then annotate others:
     'DQSFJJIA': '在家At home',
     # 'DQSFJJIA': '在外Away from home',
 
-    # choose once, then annotate others:
+    # choose one, then annotate others:
     'LXZT': '非学校所在城市Not in the city of the university',
     # 'LXZT': '学校所在城市In the city of the university',
     # 'LXZT': '境外Abroad',
+
+    'none': 'none'
 }
 ```
 
